@@ -1,8 +1,8 @@
 <?php
 
-namespace Dotlogics\Grapesjs\App\Traits;
+namespace HansDeBoeck\Grapesjs\App\Traits;
 
-use Dotlogics\Grapesjs\App\Editor\Config;
+use HansDeBoeck\Grapesjs\App\Editor\Config;
 use Illuminate\Http\Request;
 
 trait EditorTrait{
@@ -10,7 +10,7 @@ trait EditorTrait{
 	protected function show_gjs_editor(Request $request, $model){
 		$editorConfig = app(Config::class)->initialize($model);
 		
-		return view('laravel-grapesjs::edittor', compact('editorConfig', 'model'));
+		return view('laravel-grapesjs::editor', compact('editorConfig', 'model'));
 	}
 
 	protected function store_gjs_data(Request $request, $model)

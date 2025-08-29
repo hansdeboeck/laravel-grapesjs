@@ -1,8 +1,8 @@
 <?php
 
-namespace Dotlogics\Grapesjs\App\Editor;
+namespace HansDeBoeck\Grapesjs\App\Editor;
 
-use Dotlogics\Grapesjs\App\Contracts\Editable;
+use HansDeBoeck\Grapesjs\App\Contracts\Editable;
 
 class Config
 {

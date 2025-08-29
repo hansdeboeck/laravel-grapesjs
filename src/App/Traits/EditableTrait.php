@@ -1,6 +1,6 @@
 <?php
 
-namespace Dotlogics\Grapesjs\App\Traits;
+namespace HansDeBoeck\Grapesjs\App\Traits;
 
 use DOMDocument;
 

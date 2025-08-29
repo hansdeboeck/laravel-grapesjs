@@ -1,12 +1,12 @@
 <?php
 
-namespace Dotlogics\Grapesjs\App\Http\Controllers;
+namespace HansDeBoeck\Grapesjs\App\Http\Controllers;
 
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 use App\Http\Controllers\Controller;
-use Dotlogics\Grapesjs\App\Traits\EditorTrait;
+use HansDeBoeck\Grapesjs\App\Traits\EditorTrait;
 use Illuminate\Support\Facades\View;
 
 class EditorController extends Controller

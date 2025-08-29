@@ -1,6 +1,6 @@
 <?php
 
-namespace Dotlogics\Grapesjs\App\Editor;
+namespace HansDeBoeck\Grapesjs\App\Editor;
 
 
 class StorageManager

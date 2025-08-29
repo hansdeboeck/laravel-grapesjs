@@ -1,6 +1,6 @@
 <?php
 
-namespace Dotlogics\Grapesjs;
+namespace HansDeBoeck\Grapesjs;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Blade;

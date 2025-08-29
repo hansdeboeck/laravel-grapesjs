@@ -1,8 +1,8 @@
 <?php
 
-namespace Dotlogics\Grapesjs\App\Editor;
+namespace HansDeBoeck\Grapesjs\App\Editor;
 
-use Dotlogics\Grapesjs\App\Repositories\AssetRepository;
+use HansDeBoeck\Grapesjs\App\Repositories\AssetRepository;
 
 class AssetManager
 {
@@ -11,11 +11,11 @@ class AssetManager
     public ?string $uploadName = null;
     public array $headers = [];
     public int $autoAdd = 1;
-    public string $uploadText = 'Drop files here or click to upload';
-    public string $addBtnText = 'Add image';
+    public string $uploadText = 'Plaats bestanden hier of klik om te uploaden';
+    public string $addBtnText = 'Afbeelding toevoegen';
     public int $dropzone = 1;
     public int $openAssetsOnDrop = 0;
-    public string $modalTitle = 'Upload Images';
+    public string $modalTitle = 'Afbeeldingen uploaden';
     public bool $showUrlInput = false;
 
     function __construct(AssetRepository $assetRepository)
